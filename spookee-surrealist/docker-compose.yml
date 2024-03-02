@@ -15,6 +15,5 @@ services:
       - npx
       - -y
       - serve
-      - -l 3000
       - /app
     restart: unless-stopped
