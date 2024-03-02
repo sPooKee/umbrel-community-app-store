@@ -1,0 +1,24 @@
+manifestVersion: 1
+id: spookee-surrealist
+name: Surrealist
+category: Developer
+version: 0.0.1
+tagline: SurrealDB Database Surealist GUI
+icon: https://github.com/StarlaneStudios/Surrealist/blob/v1.11.5/src/assets/icon.png?raw=true
+description: "..."
+developer: StarlaneStudios
+website: https://www.surrealist.app
+dependencies: []
+repo: https://github.com/StarlaneStudios/Surrealist
+support: https://github.com/StarlaneStudios/Surrealist/issues
+port: 8089
+gallery:
+  - https://i.imgur.com/DNHGseE.png
+path: ""
+defaultPassword: ""
+releaseNotes: |
+  https://github.com/StarlaneStudios/Surrealist/releases
+submitter: sPooKee
+submission: null
+defaultUsername: "root"
+deterministicPassword: true

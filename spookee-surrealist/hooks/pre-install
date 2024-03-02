@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+#set -euo pipefail
+
+# apt install libjavascriptcoregtk-4.0-dev libsoup2.4-dev libwebkit2gtk-4.0-dev
+# curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+# npm i -g pnpm
+# rustup target add wasm32-unknown-unknown
+
+# git clone https://github.com/StarlaneStudios/Surrealist.git ${EXPORTS_APP_DIR}/data/app
+# npm i --prefix ${EXPORTS_APP_DIR}/data/app
+# npm run embed:build --prefix ${EXPORTS_APP_DIR}/data/app
+# npm run build --prefix ${EXPORTS_APP_DIR}/data/app
+
