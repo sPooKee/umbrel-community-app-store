@@ -12,12 +12,14 @@ description: >-
 
   You can also add newlines!
 
-developer: Umbrel
-website: https://umbrel.com
+developer: WeejeWel
+website: https://github.com/WeeJeWel
 submitter: sPooKee
+submission:
 repo: https://github.com/wg-easy/wg-easy
+support: https://github.com/wg-easy/wg-easy/issues
 releaseNotes: >-
-  Add what's new in the latest version of your app here.
+  Initial release
 dependencies: []
 path: ""
 defaultUsername: ""
