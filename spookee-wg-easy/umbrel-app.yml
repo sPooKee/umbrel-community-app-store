@@ -1,17 +1,13 @@
 manifestVersion: 1
 id: spookee-wg-easy
-name: WireGuard easy
+name: WireGuard
 tagline: WireGuard
 icon: https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/png/wireguard.png
-category: networking
+category: Networking
 version: "1.0.0"
 port: 51821
 description: >-
-  Add your app's description here.
-
-
-  You can also add newlines!
-
+  Wireguard
 developer: WeejeWel
 website: https://github.com/WeeJeWel
 submitter: sPooKee
