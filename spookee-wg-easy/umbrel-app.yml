@@ -1,0 +1,24 @@
+manifestVersion: 1
+id: spookee-wg-easy
+name: WireGuard easy
+tagline: WireGuard
+icon: https://github.com/walkxcode/dashboard-icons/raw/main/svg/wireguard.svg?raw=true
+category: networking
+version: "1.0.0"
+port: 51821
+description: >-
+  Add your app's description here.
+
+
+  You can also add newlines!
+
+developer: Umbrel
+website: https://umbrel.com
+submitter: sPooKee
+repo: https://github.com/wg-easy/wg-easy
+releaseNotes: >-
+  Add what's new in the latest version of your app here.
+dependencies: []
+path: ""
+defaultUsername: ""
+deterministicPassword: true
