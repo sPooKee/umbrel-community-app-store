@@ -1,22 +1,24 @@
 manifestVersion: 1
 id: spookee-wg-easy
 name: WireGuard
-tagline: WireGuard
-icon: https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/png/wireguard.png
 category: Networking
-version: "1.0.0"
-port: 51821
-description: >-
-  Wireguard
-developer: WeejeWel
-website: https://github.com/WeeJeWel
-submitter: sPooKee
-submission:
+version: 0.0.1
+tagline: WireGuard VPM
+icon: https://github.com/walkxcode/dashboard-icons/blob/main/png/wireguard.png?raw=true
+description: "..."
+developer: WireGuard
+website: https://www.wireguard.com
+dependencies: []
 repo: https://github.com/wg-easy/wg-easy
 support: https://github.com/wg-easy/wg-easy/issues
-releaseNotes: >-
-  Initial release
-dependencies: []
+port: 51821
+gallery:
+  - https://i.imgur.com/DNHGseE.png
 path: ""
+defaultPassword: ""
+releaseNotes: |
+  https://github.com/wg-easy/wg-easy
+submitter: sPooKee
+submission: null
 defaultUsername: ""
 deterministicPassword: true
