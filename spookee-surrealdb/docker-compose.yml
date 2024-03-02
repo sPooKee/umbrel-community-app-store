@@ -160,7 +160,7 @@ services:
     command: 
       - start
       - --log=trace
-      - --user=${APP_USERNAME}
+      - --user=root
       - --pass=${APP_PASSWORD}
       - tikv://pd0:2379
     depends_on:
