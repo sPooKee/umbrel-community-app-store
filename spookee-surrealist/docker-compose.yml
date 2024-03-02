@@ -5,7 +5,7 @@ services:
   sample:
     container_name: sample
     build:
-      context: .
+      context: ${APP_SURREALIST_APP_DIR}
       dockerfile: Dockerfile
     volumes:
       - '${APP_SURREALIST_APP_DIR}:/app'
