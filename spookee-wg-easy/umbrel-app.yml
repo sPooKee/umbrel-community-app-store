@@ -21,4 +21,5 @@ releaseNotes: |
 submitter: sPooKee
 submission: null
 defaultUsername: ""
-deterministicPassword: true
+defaultPassword: "umbrel"
+# deterministicPassword: true

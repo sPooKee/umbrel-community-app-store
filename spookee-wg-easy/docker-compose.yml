@@ -10,7 +10,7 @@ services:
       # Change this to your host's public address
       - WG_HOST="${APP_DOMAIN}"
       # Optional:
-      - PASSWORD="${APP_PASSWORD}"
+      - PASSWORD="umbrel"
       # - WG_PORT=51820
       # - WG_DEFAULT_ADDRESS=10.8.0.x
       # - WG_DEFAULT_DNS=1.1.1.1
