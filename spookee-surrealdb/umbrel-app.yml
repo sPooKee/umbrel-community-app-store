@@ -4,7 +4,7 @@ name: SurrealDB
 category: Developer
 version: 0.0.1
 tagline: SurrealDB Database
-icon: https://github.com/surrealdb/.github/blob/main/img/icon.png?raw
+icon: https://github.com/surrealdb/.github/blob/main/img/icon.png?raw=true
 description: "..."
 developer: SurrealDB
 website: https://www.surrealdb.com
