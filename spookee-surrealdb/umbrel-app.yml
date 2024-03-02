@@ -1,0 +1,24 @@
+manifestVersion: 1
+id: spookee-surrealdb
+name: SurrealDB
+category: Developer
+version: 0.0.1
+tagline: SurrealDB Database
+icon: https://github.com/surrealdb/.github/blob/main/img/icon.png?raw
+description: "..."
+developer: SurrealDB
+website: https://www.surrealdb.com
+dependencies: []
+repo: https://github.com/surrealdb/surrealdb
+support: https://github.com/surrealdb/surrealdb/issues
+port: 8088
+gallery:
+  - https://i.imgur.com/DNHGseE.png
+path: ""
+defaultPassword: ""
+releaseNotes: |
+  https://github.com/surrealdb/surrealdb/releases
+submitter: sPooKee
+submission: null
+defaultUsername: "root"
+deterministicPassword: true

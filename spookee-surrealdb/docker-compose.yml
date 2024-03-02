@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  surrealdb:
+  image: surrealdb/surrealdb:latest
+  container_name: surrealdb
+  ports:
+    - '${APP_SURREALDB_PORT}:8000'
+  command:
+    - start #start the SurrealDB server
+    - --log=trace #no idea what this does :(
+    - --user=${APP_USERNAME} #default user
+    - --pass=${APP_PASSWORD} #default password
+    - file:/data/database.db
+  restart: unless-stopped
+  volumes:
+    - "${APP_SURREALDB_DATA_DIR}:/data"
