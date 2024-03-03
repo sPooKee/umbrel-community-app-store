@@ -1,0 +1,24 @@
+manifestVersion: 1
+id: spookee-ittools
+name: IT Tools
+category: Developer
+version: 0.0.1
+tagline: IT Tools
+icon: https://github.com/CorentinTh/it-tools/blob/main/public/apple-touch-icon.png?raw=true
+description: "..."
+developer: Corentin THOMASSET
+website: https://it-tools.tech/
+dependencies: []
+repo: https://github.com/CorentinTh/it-tools
+support: https://github.com/CorentinTh/it-tools/issues
+port: 8090
+gallery:
+  - https://i.imgur.com/DNHGseE.png
+path: ""
+defaultPassword: ""
+releaseNotes: |
+  https://github.com/CorentinTh/it-tools/releases
+submitter: sPooKee
+submission: null
+defaultUsername: "root"
+deterministicPassword: true

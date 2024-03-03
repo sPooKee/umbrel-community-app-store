@@ -1,0 +1,23 @@
+# Configuration for it-tools setup
+
+# Name of the big-bear-it-tools application
+name: spookee-ittools
+
+# Service definitions for the big-bear-it-tools application
+services:
+  # Service name: app
+  # The `app` service definition
+  app:
+    # Name of the container
+    container_name: spookee-ittools
+
+    # Image to be used for the container
+    image: corentinth/it-tools:latest
+
+    # Container restart policy
+    restart: unless-stopped
+
+    # Ports mapping between host and container
+    ports:
+      # Mapping port 8080 of the host to port 80 of the container
+      - "${APP_ITTOOLS_PORT}:80"
