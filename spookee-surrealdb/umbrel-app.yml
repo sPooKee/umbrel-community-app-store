@@ -3,7 +3,7 @@ id: spookee-surrealdb
 name: SurrealDB
 category: Developer
 version: 0.0.1
-tagline: SurrealDB Database
+tagline: SurrealDB Database (3er TiKV Cluster)
 icon: https://github.com/surrealdb/.github/blob/main/img/icon.png?raw=true
 description: "Small SurrealDB Setup (3xTiKV)"
 developer: SurrealDB
