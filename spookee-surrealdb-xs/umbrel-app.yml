@@ -1,11 +1,11 @@
 manifestVersion: 1
-id: spookee-surrealdb
+id: spookee-surrealdb-xs
 name: SurrealDB
 category: Developer
 version: 0.0.1
 tagline: SurrealDB Database
 icon: https://github.com/surrealdb/.github/blob/main/img/icon.png?raw=true
-description: "Small SurrealDB Setup (3xTiKV)"
+description: "Small SurrealDB Setup (1xTiKV)"
 developer: SurrealDB
 website: https://www.surrealdb.com
 dependencies: []
