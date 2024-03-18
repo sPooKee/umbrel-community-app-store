@@ -23,7 +23,7 @@ services:
       # - WG_POST_DOWN=echo "Post Down" > /etc/wireguard/post-down.txt
       UI_TRAFFIC_STATS: 1
 
-    image: ghcr.io/wg-easy/wg-easy
+    image: ghcr.io/wg-easy/wg-easy:12
     container_name: wg-easy
     volumes:
       - "${APP_WGEASY_DATA_DIR}:/etc/wireguard"
