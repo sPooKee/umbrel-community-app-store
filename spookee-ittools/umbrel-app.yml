@@ -2,7 +2,7 @@ manifestVersion: 1
 id: spookee-ittools
 name: IT Tools
 category: Developer
-version: 0.0.1
+version: 0.0.2
 tagline: IT Tools
 icon: https://github.com/CorentinTh/it-tools/blob/main/public/apple-touch-icon.png?raw=true
 description: "..."
