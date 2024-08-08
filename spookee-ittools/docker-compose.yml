@@ -9,7 +9,7 @@ services:
     container_name: spookee-ittools
 
     # Image to be used for the container
-    image: corentinth/it-tools:latest
+    image: corentinth/it-tools:2024.5.13-a0bc346
 
     # Container restart policy
     restart: unless-stopped
