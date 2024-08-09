@@ -4,6 +4,7 @@ category: bitcoin
 name: Bitcoin Node
 version: "27.0"
 tagline: Run your personal node powered by Bitcoin Core
+icon: https://getumbrel.github.io/umbrel-apps-gallery/bitcoin/icon.svg
 description: >-
   Run your Bitcoin node and independently store and validate
   every single Bitcoin transaction with it. Achieve unparalleled
@@ -33,12 +34,6 @@ dependencies: []
 repo: https://github.com/getumbrel/umbrel-bitcoin
 support: https://community.getumbrel.com/c/bitcoin-and-lightning
 port: 2100
-gallery:
-  - 1.jpg
-  - 2.jpg
-  - 3.jpg
-  - 4.jpg
-  - 5.jpg
 path: ""
 defaultPassword: ""
 releaseNotes: >-
