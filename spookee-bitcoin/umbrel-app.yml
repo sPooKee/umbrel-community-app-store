@@ -34,6 +34,8 @@ dependencies: []
 repo: https://github.com/getumbrel/umbrel-bitcoin
 support: https://community.getumbrel.com/c/bitcoin-and-lightning
 port: 2100
+gallery:
+  - https://i.imgur.com/DNHGseE.png
 path: ""
 defaultPassword: ""
 releaseNotes: >-
