@@ -10,7 +10,8 @@ services:
       # Change this to your host's public address
       WG_HOST: ${APP_DOMAIN}
       # Optional:
-      PASSWORD: ${APP_PASSWORD}
+      # PASSWORD: ${APP_PASSWORD}
+      PASSWORD_HASH: ${APP_PASSWORD_HASH}
       # - WG_PORT=51820
       # - WG_DEFAULT_ADDRESS=10.8.0.x
       WG_DEFAULT_DNS: 10.0.1.10
