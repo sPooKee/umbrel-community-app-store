@@ -2,7 +2,7 @@ manifestVersion: 1
 id: spookee-unifi
 name: Unifi Controller
 category: Networking
-version: 8.0.24-1
+version: 8.0.24-3
 tagline: Unifi Controller
 icon: https://github.com/walkxcode/dashboard-icons/blob/main/png/unifi-controller.png?raw=true
 description: "..."
@@ -22,4 +22,4 @@ submitter: sPooKee
 submission: null
 defaultUsername: ""
 #defaultPassword: "umbrel"
-deterministicPassword: true
+#deterministicPassword: true
