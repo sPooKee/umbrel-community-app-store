@@ -11,7 +11,7 @@ website: https://www.ui.com
 dependencies: []
 repo: https://github.com/linuxserver
 support: https://github.com/linuxserver/issues
-port: 51821
+port: 8089
 gallery:
   - https://i.imgur.com/DNHGseE.png
 path: ""
