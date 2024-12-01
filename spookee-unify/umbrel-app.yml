@@ -1,0 +1,25 @@
+manifestVersion: 1
+id: spookee-unifi
+name: Unifi Controller
+category: Networking
+version: 0.0.1
+tagline: Unifi Controller
+icon: https://github.com/walkxcode/dashboard-icons/blob/main/png/wireguard.png?raw=true
+description: "..."
+developer: Unifi
+website: https://www.ui.com
+dependencies: []
+repo: https://github.com/linuxserver
+support: https://github.com/linuxserver/issues
+port: 51821
+gallery:
+  - https://i.imgur.com/DNHGseE.png
+path: ""
+defaultPassword: ""
+releaseNotes: |
+  https://github.com/linuxserver
+submitter: sPooKee
+submission: null
+defaultUsername: ""
+#defaultPassword: "umbrel"
+deterministicPassword: true
