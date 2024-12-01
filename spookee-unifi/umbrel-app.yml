@@ -1,9 +1,9 @@
 manifestVersion: 1
 id: spookee-unifi
-name: Unifi Controller
+name: Unifi network Application
 category: Networking
-version: 8.0.24-3
-tagline: Unifi Controller
+version: 8.0.24-4
+tagline: Unifi network Application
 icon: https://github.com/walkxcode/dashboard-icons/blob/main/png/unifi-controller.png?raw=true
 description: "..."
 developer: Unifi
