@@ -2,7 +2,7 @@ manifestVersion: 1
 id: spookee-nginxui
 name: Nginx UI
 category: Networking
-version: 2.0.0-beta.41
+version: 2.0.0-beta_nginx.41
 tagline: Nginx UI
 icon: https://github.com/0xJacky/nginx-ui/blob/dev/resources/logo.png?raw=true
 description: "..."
