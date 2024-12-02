@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: spookee-unifi
+id: spookee-unifi-net-app
 name: Unifi Network App
 category: Networking
 version: 8.6.9
