@@ -2,7 +2,7 @@ manifestVersion: 1
 id: spookee-unifi
 name: Unifi network Application
 category: Networking
-version: 8.0.24-5
+version: 8.0.24-6
 tagline: Unifi network Application
 icon: https://github.com/walkxcode/dashboard-icons/blob/main/png/unifi-controller.png?raw=true
 description: "..."
@@ -11,7 +11,7 @@ website: https://www.ui.com
 dependencies: []
 repo: https://github.com/linuxserver
 support: https://github.com/linuxserver/issues
-port: 9443
+port: 8080
 gallery:
   - https://i.imgur.com/DNHGseE.png
 path: ""
