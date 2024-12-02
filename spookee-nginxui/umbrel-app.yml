@@ -1,0 +1,25 @@
+manifestVersion: 1
+id: spookee-nginxui
+name: Nginx UI
+category: Networking
+version: 2.0.0-beta.41
+tagline: Nginx UI
+icon: https://github.com/walkxcode/dashboard-icons/blob/main/png/wireguard.png?raw=true
+description: "..."
+developer: WireGuard
+website: https://www.wireguard.com
+dependencies: []
+repo: https://github.com/0xJacky/nginx-ui
+support: https://github.com/0xJacky/nginx-ui/issues
+port: 3123
+gallery:
+  - https://i.imgur.com/DNHGseE.png
+path: ""
+defaultPassword: ""
+releaseNotes: |
+  https://github.com/0xJacky/nginx-ui
+submitter: sPooKee
+submission: null
+defaultUsername: ""
+#defaultPassword: "umbrel"
+deterministicPassword: true
