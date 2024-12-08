@@ -12,6 +12,7 @@ services:
     restart: on-failure
     ports:
       - 80:80
+      - 40081:81
       - 443:443
     volumes:
       - ${APP_DATA_DIR}/data/npm-data:/data
