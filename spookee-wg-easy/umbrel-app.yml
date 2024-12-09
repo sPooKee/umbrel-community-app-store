@@ -11,7 +11,7 @@ website: https://www.wireguard.com
 dependencies: []
 repo: https://github.com/wg-easy/wg-easy
 support: https://github.com/wg-easy/wg-easy/issues
-port: 51821
+port: 8091
 gallery:
   - https://i.imgur.com/DNHGseE.png
 path: ""

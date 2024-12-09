@@ -6,10 +6,10 @@ services:
       # <app-id>_<web-container-name>_1
       # e.g. 'btc-rpc-explorer_web_1'
       # Note that the '_1' at the end is needed
-      APP_HOST: spookee-wg-easy_server_1
+      APP_HOST: spookee-wg-easy_app_1
       APP_PORT: 51821
 
-  server:
+  app:
     environment:
       # Change Language:
       # (Supports: en, ua, ru, tr, no, pl, fr, de, ca, es, ko, vi, nl, is, pt, chs, cht, it, th)
@@ -24,7 +24,7 @@ services:
       WG_DEFAULT_DNS: 10.0.1.10
       WG_PERSISTENT_KEEPALIVE: 0
       # - WG_MTU=1420
-      WG_ALLOWED_IPS: 10.0.0.0/8
+      WG_ALLOWED_IPS: 10.0.1.0/24
       # - WG_PRE_UP=echo "Pre Up" > /etc/wireguard/pre-up.txt
       # - WG_POST_UP=echo "Post Up" > /etc/wireguard/post-up.txt
       # - WG_PRE_DOWN=echo "Pre Down" > /etc/wireguard/pre-down.txt
@@ -33,7 +33,6 @@ services:
       UI_ENABLE_SORT_CLIENTS: true
 
     image: ghcr.io/wg-easy/wg-easy:14
-    container_name: wg-easy
     volumes:
       - "${APP_WGEASY_DATA_DIR}:/etc/wireguard"
     ports:

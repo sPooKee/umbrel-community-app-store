@@ -11,7 +11,7 @@ Just click the "Use this template" button above and start adding your own apps!
 | App | Service | Port |
 | --- | ------- | ---- |
 | IT Tools | HTTP | 8090 |
-| WireGuard | ADMIN/HTTP | 51821 |
+| WireGuard | ADMIN/HTTP | 8091 |
 | WireGuard | VPN | 51820/udp |
 | NGINX Proxy Manager | ADMIN/HTTP | 8092 |
 | NGINX Proxy Manager | HTTP | 80 |
