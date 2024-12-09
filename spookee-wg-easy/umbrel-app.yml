@@ -2,7 +2,7 @@ manifestVersion: 1
 id: spookee-wg-easy
 name: WireGuard
 category: Networking
-version: 0.0.5
+version: 14.0.0
 tagline: WireGuard VPM
 icon: https://getumbrel.github.io/umbrel-apps-gallery/wireguard/icon.svg
 description: "..."
@@ -11,7 +11,7 @@ website: https://www.wireguard.com
 dependencies: []
 repo: https://github.com/wg-easy/wg-easy
 support: https://github.com/wg-easy/wg-easy/issues
-port: 8091
+port: 51821
 gallery:
   - https://i.imgur.com/DNHGseE.png
 path: ""
