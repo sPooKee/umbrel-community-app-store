@@ -21,7 +21,7 @@ website: https://pi-hole.net
 dependencies: []
 repo: https://github.com/pi-hole/pi-hole
 support: https://discourse.pi-hole.net
-port: 8082
+port: 8093
 icon: https://getumbrel.github.io/umbrel-apps-gallery/pi-hole/icon.svg
 gallery:
   - https://i.imgur.com/DNHGseE.png

@@ -4,14 +4,14 @@ name: WireGuard
 category: Networking
 version: 0.0.5
 tagline: WireGuard VPM
-icon: https://github.com/walkxcode/dashboard-icons/blob/main/png/wireguard.png?raw=true
+icon: https://getumbrel.github.io/umbrel-apps-gallery/wireguard/icon.svg
 description: "..."
 developer: WireGuard
 website: https://www.wireguard.com
 dependencies: []
 repo: https://github.com/wg-easy/wg-easy
 support: https://github.com/wg-easy/wg-easy/issues
-port: 51821
+port: 8091
 gallery:
   - https://i.imgur.com/DNHGseE.png
 path: ""
