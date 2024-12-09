@@ -3,13 +3,13 @@
 # Service definitions for the big-bear-it-tools application
 services:
 
-  app_proxy:
-    environment:
-      # <app-id>_<web-container-name>_1
-      # e.g. 'btc-rpc-explorer_web_1'
-      # Note that the '_1' at the end is needed
-      APP_HOST: spookee-ittools_app_1
-      APP_PORT: 80
+#  app_proxy:
+#    environment:
+#      # <app-id>_<web-container-name>_1
+#      # e.g. 'btc-rpc-explorer_web_1'
+#      # Note that the '_1' at the end is needed
+#      APP_HOST: spookee-ittools_app_1
+#      APP_PORT: 80
 
   # Service name: app
   # The `app` service definition
@@ -24,6 +24,6 @@ services:
     restart: unless-stopped
 
     # Ports mapping between host and container
-    #ports:
+    ports:
       # Mapping port 8080 of the host to port 80 of the container
-    #  - "${APP_ITTOOLS_PORT}:80"
+      - "${APP_ITTOOLS_PORT}:80"
