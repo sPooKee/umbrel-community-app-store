@@ -2,7 +2,7 @@ manifestVersion: 1.1
 id: spookee-pihole
 category: networking
 name: Pi-hole
-version: "2025.02.7"
+version: "2025.02.7-1"
 tagline: Block ads on your entire network
 description: >-
   Instead of browser plugins or other software on each computer,
