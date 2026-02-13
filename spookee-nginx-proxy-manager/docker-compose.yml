@@ -7,7 +7,7 @@ services:
       APP_PORT: 81
       
   web:
-    image: jc21/nginx-proxy-manager:2.12.1@sha256:b7168e5f6828cbbd3622fa19965007e4611cf42b5f3c603008377ffd45a4fe00
+    image: jc21/nginx-proxy-manager:2.13.7@sha256:3c5acf6bc3125079906078d0cacec59130018bb32ed64092f7ce495edc68c5ec
     hostname: nginx-proxy-manager_web_1
     restart: on-failure
     ports:
