@@ -3,7 +3,7 @@ id: spookee-nginx-proxy-manager
 name: Nginx Proxy Manager
 tagline: Expose your services easily and securely
 category: networking
-version: "2.13.7"
+version: "2.15.1"
 port: 8092
 icon: https://getumbrel.github.io/umbrel-apps-gallery/nginx-proxy-manager/icon.svg
 description: >-
@@ -37,18 +37,10 @@ gallery:
   - 2.jpg
   - 3.jpg
 releaseNotes: >-
-  🚨 This update fixes two command injection vulnerabilities found in version 2.11.3. It is recommended that you upgrade to this version immediately.
-  
-  
-  Highlights:
-    - Fixed two security vulnerabilities (CVE-2024-46256 and CVE-2024-46257).
-    - Reworked API with improved validation, now available at the /api/schema endpoint.
-    - API responses now use true/false for booleans instead of 0/1.
-    - API now correctly returns 404 errors for invalid operations.
-    - Fixed issues with app not restarting after log rotation.
+  This release reverts the base image to Lua 5.1.5 and fixes an issue that could occur when internal Nginx configuration files are mounted.
 
- 
-  Full release notes and are available at https://github.com/NginxProxyManager/nginx-proxy-manager/releases
+
+  Full release notes can be found at https://github.com/NginxProxyManager/nginx-proxy-manager/releases/tag/v2.15.1
 dependencies: []
 path: ""
 defaultUsername: "admin@example.com"
