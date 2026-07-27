@@ -4,6 +4,7 @@ category: files
 name: DocuSeal
 version: "3.1.6"
 tagline: Open source document filling and signing
+icon: https://getumbrel.github.io/umbrel-apps-gallery/docuseal/icon.svg
 description: >
   DocuSeal is an open source platform that provides secure and efficient digital document signing and processing.
 
