@@ -1,0 +1,17 @@
+version: '3.7'
+services:
+  app_proxy:
+    environment:
+      APP_HOST: pingvin-share_web_1
+      APP_PORT: 3000
+      PROXY_AUTH_ADD: 'false'
+    container_name: pingvin-share_app_proxy_1
+  web:
+    image: >-
+      smp46/pingvin-share-x:v1.21.2@sha256:c881b09f0f2b01120cd50dc52bbf3d9ab4def8c1cbef9aab3f6df159644ae24e
+    user: '1000:1000'
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/data/backend:/opt/app/backend/data
+      - ${APP_DATA_DIR}/data/images:/opt/app/frontend/public/img
+    container_name: pingvin-share_web_1
