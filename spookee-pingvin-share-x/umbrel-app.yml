@@ -1,10 +1,10 @@
 manifestVersion: 1.1
-id: pingvin-share-x
+id: spookee-pingvin-share-x
 category: files
 name: Pingvin Share
 version: "1.21.2"
 tagline: Self-hosted file sharing platform
-icon: https://github.com/smp46/pingvin-share-x/blob/main/frontend/public/img/icons/icon-512x512.png?raw=true
+icon: https://getumbrel.github.io/umbrel-apps-gallery/pingvin-share/icon.svg
 description: >-
   Pingvin Share is self-hosted file sharing platform and an alternative for WeTransfer.
 
