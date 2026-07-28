@@ -16,3 +16,9 @@ services:
       - ${APP_DATA_DIR}/data:/opt/app/backend/data:rw,z
       - ${APP_DATA_DIR}/data/images:/opt/app/frontend/public/img:rw,z
     container_name: pingvin-share_web_1
+    depends_on:
+      clamav:
+        condition: service_healthy
+  clamav:
+    restart: unless-stopped
+    image: clamav/clamav
