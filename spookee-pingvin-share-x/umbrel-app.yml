@@ -2,7 +2,7 @@ manifestVersion: 1.1
 id: spookee-pingvin-share-x
 category: files
 name: Pingvin Share
-version: "1.21.2"
+version: "2.1.1"
 tagline: Self-hosted file sharing platform
 icon: https://getumbrel.github.io/umbrel-apps-gallery/pingvin-share/icon.svg
 description: >-

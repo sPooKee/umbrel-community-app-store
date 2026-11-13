@@ -7,7 +7,7 @@ services:
     container_name: pingvin-share_app_proxy_1
   web:
     image: >-
-      smp46/pingvin-share-x:v1.21.2@sha256:c881b09f0f2b01120cd50dc52bbf3d9ab4def8c1cbef9aab3f6df159644ae24e
+      smp46/pingvin-share-x:v2.1.1@sha256:7b3a70a6f016eb63dab0b7bda8431373fc8b0c5120a58d9572cb5ffdae241739
     environment:
       - TRUST_PROXY=true # Set to true if a reverse proxy is in front of the container
     user: '1000:1000'
